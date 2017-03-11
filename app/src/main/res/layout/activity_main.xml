@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/fragement_vertical_margin"
+    android:paddingLeft="@dimen/fragement_horizontal_margin"
+    android:paddingRight="@dimen/fragement_horizontal_margin"
+    android:paddingTop="@dimen/fragement_vertical_margin"
+    tools:context="com.kaivanshah.assignment62.MainActivity"
+    android:orientation="horizontal">
+    <fragment
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:id="@+id/fragemtn_left"
+        class="com.kaivanshah.assignment62.Fragements.ListFragment">
+
+    </fragment>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:id="@+id/tv_Value"></TextView>
+
+
+</LinearLayout>
